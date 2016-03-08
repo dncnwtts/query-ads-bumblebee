@@ -45,19 +45,4 @@ author%3A"^Zhou, Y")) AND year%3A2005-2099)&sort=date desc
 )
 
 [Publication list (working, abridged)]
-(https://ui.adsabs.harvard.edu/#search/fq={!type%3Daqp
-v%3D%24fq_property}&fq_property=(property%3Arefereed)&q=((pos(aff%3A"Hopkins",1)
-AND pos(aff%3A"Physics",1) AND (author%3A"^Aguilar, J" OR
-author%3A"^Alexandroff, R" OR author%3A"^Ali, A" OR author%3A"^Anand, N" OR
-author%3A"^Arpino, K" OR author%3A"^Atakhodjaev, I" OR author%3A"^Bankert, J" OR
-author%3A"^Berghaus, K" OR author%3A"^Bobrow, E" OR author%3A"^Bose, P" OR
-author%3A"^Brehm, D" OR author%3A"^Breysse, P" OR author%3A"^Cantrell, S" OR
-author%3A"^Cao, L" OR author%3A"^Carey, N" OR author%3A"^Caviglia, C" OR
-author%3A"^Chan, C" OR author%3A"^Chaudhuri, D" OR author%3A"^Chen, H" OR
-author%3A"^Chen, K" OR author%3A"^Chen, Y" OR author%3A"^Chen, Y" OR
-author%3A"^Chen, Y" OR author%3A"^Cheng, B" OR author%3A"^Clemmer, J" OR
-author%3A"^Cordisco, A" OR author%3A"^Crichton, D" OR author%3A"^Crosley, M" OR
-author%3A"^Dahal, S" OR author%3A"^Dasgupta, S" OR author%3A"^Dugan, Z" OR
-author%3A"^Ely, D" OR author%3A"^Eminizer, N" OR author%3A"^Engelke, P" OR
-author%3A"^Faroughy, C")) AND year%3A2005-2099)&sort=date desc
-)
+(https://ui.adsabs.harvard.edu/#search/fq={!type%3Daqp v%3D%24fq_property}&fq_property=(property%3Arefereed)&q=((pos(aff%3A"Hopkins",1) AND pos(aff%3A"Physics",1) AND (author%3A"^Aguilar, J" OR author%3A"^Alexandroff, R" OR author%3A"^Ali, A" OR author%3A"^Anand, N" OR author%3A"^Arpino, K" OR author%3A"^Atakhodjaev, I" OR author%3A"^Bankert, J" OR author%3A"^Berghaus, K" OR author%3A"^Bobrow, E" OR author%3A"^Bose, P" OR author%3A"^Brehm, D" OR author%3A"^Breysse, P" OR author%3A"^Cantrell, S" OR author%3A"^Cao, L" OR author%3A"^Carey, N" OR author%3A"^Caviglia, C" OR author%3A"^Chan, C" OR author%3A"^Chaudhuri, D" OR author%3A"^Chen, H" OR author%3A"^Chen, K" OR author%3A"^Chen, Y" OR author%3A"^Chen, Y" OR author%3A"^Chen, Y" OR author%3A"^Cheng, B" OR author%3A"^Clemmer, J" OR author%3A"^Cordisco, A" OR author%3A"^Crichton, D" OR author%3A"^Crosley, M" OR author%3A"^Dahal, S" OR author%3A"^Dasgupta, S" OR author%3A"^Dugan, Z" OR author%3A"^Ely, D" OR author%3A"^Eminizer, N" OR author%3A"^Engelke, P" OR author%3A"^Faroughy, C")) AND year%3A2005-2099)&sort=date desc)
