@@ -16,8 +16,8 @@ lastnames = [student.split(',')[0] + ', ' + student.split(',')[1][1] for student
 beginning = 'https://ui.adsabs.harvard.edu/#search/'
 # Ensures all listed publications are referreed
 display = 'fq={!type%3Daqp v%3D%24fq_property}&fq_property=(property%3Arefereed)'
-# Affiliation of first author is "Hopkins"
-affil = '&q=((pos(aff%3A"Hopkins",1) AND aff%3A"Astronomy" AND ('
+# Affiliation of first author is "Hopkins", Physics department
+affil = '&q=((pos(aff%3A"Hopkins",1) AND pos(aff%3A"Physics",1) AND ('
 # Ignores publications before authors were graduate students
 ending = ')) AND year%3A2005-2099)&sort=date desc'
 
