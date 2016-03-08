@@ -3,7 +3,7 @@ Short python script that creates URL querying Bumblebee database
 
 The output of this script is a link to ADS Bumblebee:
 
-[Publication list]
+[Publication list (broken)]
 (https://ui.adsabs.harvard.edu/#search/fq={!type%3Daqp
 v%3D%24fq_property}&fq_property=(property%3Arefereed)&q=((pos(aff%3A"Hopkins",1)
 AND (author%3A"^Aguilar, J" OR author%3A"^Alexandroff, R" OR author%3A"^Ali, A"
@@ -42,3 +42,24 @@ author%3A"^Wolff, S" OR author%3A"^Wu, S" OR author%3A"^Xu, B" OR author%3A"^Xu,
 Z" OR author%3A"^Yang, L" OR author%3A"^You, C" OR author%3A"^Zhang, S" OR
 author%3A"^Zhang, X" OR author%3A"^Zhou, Y")) AND year%3A2005-2099)&sort=date
 desc)
+
+
+[Publication list (working, abridged)]
+(https://ui.adsabs.harvard.edu/#search/fq={!type%3Daqp
+v%3D%24fq_property}&fq_property=(property%3Arefereed)&q=((pos(aff%3A"Hopkins",1)
+AND aff%3A"Astronomy" AND (author%3A"^Aguilar, J" OR author%3A"^Alexandroff, R"
+OR author%3A"^Ali, A" OR author%3A"^Anand, N" OR author%3A"^Arpino, K" OR
+author%3A"^Atakhodjaev, I" OR author%3A"^Bankert, J" OR author%3A"^Berghaus, K"
+OR author%3A"^Bobrow, E" OR author%3A"^Bose, P" OR author%3A"^Brehm, D" OR
+author%3A"^Breysse, P" OR author%3A"^Cantrell, S" OR author%3A"^Cao, L" OR
+author%3A"^Carey, N" OR author%3A"^Caviglia, C" OR author%3A"^Chan, C" OR
+author%3A"^Chaudhuri, D" OR author%3A"^Chen, H" OR author%3A"^Chen, K" OR
+author%3A"^Chen, Y" OR author%3A"^Chen, Y" OR author%3A"^Chen, Y" OR
+author%3A"^Cheng, B" OR author%3A"^Clemmer, J" OR author%3A"^Cordisco, A" OR
+author%3A"^Crichton, D" OR author%3A"^Crosley, M" OR author%3A"^Dahal, S" OR
+author%3A"^Dasgupta, S" OR author%3A"^Dugan, Z" OR author%3A"^Ely, D" OR
+author%3A"^Eminizer, N" OR author%3A"^Engelke, P" OR author%3A"^Faroughy, C" OR
+author%3A"^Fehling, D" OR author%3A"^Feng, L" OR author%3A"^Fogarty, K" OR
+author%3A"^Fuhrman, W" OR author%3A"^Galvani Cunha, M")) AND
+year%3A2005-2099)&sort=date desc
+)
