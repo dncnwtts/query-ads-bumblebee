@@ -11,12 +11,13 @@ tree = html.fromstring(page.content)
 fullnames = tree.xpath('//td[@class="column-1"]/text()')
 
 # Makes author name "Last name, First initial"
-lastnames = [student.split(',')[0] + ', ' + student.split(',')[1][1] for student in fullnames if student.split(',')[0] != '\n']
+lastnames = [student.split(',')[0] + ', ' + student.split(',')[1][1] for student
+        in fullnames if student.split(',')[0] != '\n']
 beginning = 'https://ui.adsabs.harvard.edu/#search/'
 # Ensures all listed publications are referreed
 display = 'fq={!type%3Daqp v%3D%24fq_property}&fq_property=(property%3Arefereed)'
 # Affiliation of first author is "Hopkins"
-affil = '&q=((pos(aff%3A"Hopkins",1) AND ('
+affil = '&q=((pos(aff%3A"Hopkins",1) AND aff%3A"Astronomy" AND ('
 # Ignores publications before authors were graduate students
 ending = ')) AND year%3A2005-2099)&sort=date desc'
 
