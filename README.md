@@ -18,7 +18,9 @@ The output of this script is a set of four links to ADS.
 
 
 For the future, a better way to do this would be using the ADS API directly.
+
 http://adsabs.github.io/help/api/
+
 https://github.com/adsabs/adsabs-dev-api
 
 This is split up into four lists because a query with 120 names directly is too many. The API should be able to handle it though.
