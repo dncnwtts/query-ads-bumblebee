@@ -14,3 +14,13 @@ The output of this script is a set of four links to ADS.
 
 [Publication list 4]
 (https://ui.adsabs.harvard.edu/#search/fq={!type%3Daqp v%3D%24fq_property}&fq_property=(property%3Arefereed)&q=((pos(aff%3A"Hopkins",1) AND (pos(aff%3A"Quantum",1) OR pos(aff%3A"Physics",1)) AND (author%3A"^Ren, B" OR author%3A"^Rivas, D" OR author%3A"^Roskes, H" OR author%3A"^Sady-Cocoros, A" OR author%3A"^Safarzadeh, M" OR author%3A"^Sarica, U" OR author%3A"^Scheie, A" OR author%3A"^Shi, Y" OR author%3A"^Simons, R" OR author%3A"^Su, T" OR author%3A"^Sun, C" OR author%3A"^Tchernyshyov, K" OR author%3A"^Trump, B" OR author%3A"^Tutmaher, J" OR author%3A"^Valentine, M" OR author%3A"^Wang, B" OR author%3A"^Wang, H" OR author%3A"^Wang, W" OR author%3A"^Wang, Y" OR author%3A"^Watts, D" OR author%3A"^Weck, P" OR author%3A"^Wolff, S" OR author%3A"^Wu, S" OR author%3A"^Xu, B" OR author%3A"^Xu, Z" OR author%3A"^Yang, L" OR author%3A"^You, C" OR author%3A"^Zhang, S" OR author%3A"^Zhang, X")) AND year%3A2005-2099)&sort=date desc)
+
+
+
+For the future, a better way to do this would be using the ADS API directly.
+
+http://adsabs.github.io/help/api/
+
+https://github.com/adsabs/adsabs-dev-api
+
+This is split up into four lists because a query with 120 names directly is too many. The API should be able to handle it though.
