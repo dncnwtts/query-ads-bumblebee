@@ -43,4 +43,5 @@ for i, name in enumerate(names):
 urls = [url + ending for url in urls]
 
 for url in urls:
+    url = url.replace(' ', '%20')
     print(url)
